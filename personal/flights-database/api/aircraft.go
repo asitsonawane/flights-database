@@ -2,9 +2,11 @@ package api
 
 import (
 	"encoding/json"
+	"fmt"
 	"io/ioutil"
 	"net/http"
 	"os"
+	"path/filepath"
 )
 
 // AircraftMapping represents the structure of aircraft data
@@ -91,37 +93,47 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 
 // loadDatabase loads the JSON database file
 func loadDatabase() (*AircraftDatabase, error) {
-	// Try to find the database file
-	dataPath := "data/aircraft_mappings.json"
+	// Get current working directory
+	cwd, err := os.Getwd()
+	if err != nil {
+		return nil, fmt.Errorf("failed to get working directory: %v", err)
+	}
 
-	// Check if we're in a Vercel environment
-	if _, err := os.Stat(dataPath); os.IsNotExist(err) {
-		// Try alternative paths for Vercel deployment
-		alternativePaths := []string{
-			"./data/aircraft_mappings.json",
-			"../data/aircraft_mappings.json",
-			"../../data/aircraft_mappings.json",
-			"/var/task/data/aircraft_mappings.json",
-		}
+	// Try multiple possible paths for the database file
+	possiblePaths := []string{
+		"data/aircraft_mappings.json",
+		filepath.Join(cwd, "data/aircraft_mappings.json"),
+		"./data/aircraft_mappings.json",
+		"../data/aircraft_mappings.json",
+		"../../data/aircraft_mappings.json",
+		"/var/task/data/aircraft_mappings.json",
+		filepath.Join(cwd, "..", "data/aircraft_mappings.json"),
+		filepath.Join(cwd, "..", "..", "data/aircraft_mappings.json"),
+	}
 
-		for _, path := range alternativePaths {
-			if _, err := os.Stat(path); err == nil {
+	var dataPath string
+	var data []byte
+	var readErr error
+
+	// Try each possible path
+	for _, path := range possiblePaths {
+		if _, err := os.Stat(path); err == nil {
+			data, readErr = ioutil.ReadFile(path)
+			if readErr == nil {
 				dataPath = path
 				break
 			}
 		}
 	}
 
-	// Read the JSON file
-	data, err := ioutil.ReadFile(dataPath)
-	if err != nil {
-		return nil, err
+	if dataPath == "" {
+		return nil, fmt.Errorf("database file not found. Tried paths: %v", possiblePaths)
 	}
 
 	// Parse the JSON
 	var database AircraftDatabase
 	if err := json.Unmarshal(data, &database); err != nil {
-		return nil, err
+		return nil, fmt.Errorf("failed to parse JSON from %s: %v", dataPath, err)
 	}
 
 	return &database, nil
