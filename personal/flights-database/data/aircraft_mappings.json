@@ -104,6 +104,16 @@
       "aircraftType": "A321",
       "displayName": "Airbus A321 NEO",
       "manufacturer": "Airbus"
+    },
+    "IX2548": {
+      "aircraftType": "Boeing",
+      "displayName": "Boeing 737",
+      "manufacturer": "Boeing"
+    },
+    "IX2814": {
+      "aircraftType": "Boeing",
+      "displayName": "Boeing 737 MAX 8",
+      "manufacturer": "Boeing"
     }
   }
 } 
