@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flights Database API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .endpoint {
+            background: #f8f9fa;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border-left: 4px solid #007bff;
+        }
+        code {
+            background: #e9ecef;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        .method {
+            font-weight: bold;
+            color: #007bff;
+        }
+        .url {
+            color: #28a745;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>✈️ Flights Database API</h1>
+        
+        <p>Welcome to the Flights Database API! This API provides aircraft mapping information for flight codes.</p>
+        
+        <h2>API Endpoints</h2>
+        
+        <div class="endpoint">
+            <div class="method">GET</div>
+            <div class="url"><code>/api/aircraft</code></div>
+            <p>Returns all aircraft mappings in the database.</p>
+        </div>
+        
+        <div class="endpoint">
+            <div class="method">POST</div>
+            <div class="url"><code>/api/aircraft</code></div>
+            <p>Returns aircraft mappings for specific flight codes.</p>
+            <p><strong>Request Body:</strong></p>
+            <pre><code>{
+  "flightCodes": ["IC5302", "AI101", "6E1234"]
+}</code></pre>
+        </div>
+        
+        <h2>Example Usage</h2>
+        
+        <h3>Get all aircraft:</h3>
+        <pre><code>curl https://your-app.vercel.app/api/aircraft</code></pre>
+        
+        <h3>Get specific aircraft:</h3>
+        <pre><code>curl -X POST https://your-app.vercel.app/api/aircraft \
+  -H "Content-Type: application/json" \
+  -d '{"flightCodes": ["IC5302", "AI101"]}'</code></pre>
+        
+        <h2>Sample Response</h2>
+        <pre><code>{
+  "results": {
+    "IC5302": {
+      "aircraftType": "AT7",
+      "displayName": "ATR 72",
+      "manufacturer": "ATR"
+    },
+    "AI101": {
+      "aircraftType": "B788",
+      "displayName": "Boeing 787-8",
+      "manufacturer": "Boeing"
+    }
+  }
+}</code></pre>
+        
+        <h2>Available Flight Codes</h2>
+        <ul>
+            <li><code>IC5302</code> - ATR 72</li>
+            <li><code>AI101</code> - Boeing 787-8</li>
+            <li><code>6E1234</code> - Airbus A320</li>
+            <li><code>SG123</code> - Boeing 737-800</li>
+        </ul>
+    </div>
+</body>
+</html> 
