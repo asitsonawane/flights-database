@@ -20,6 +20,11 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html');
 });
 
+// Privacy Policy route
+app.get('/privacy-policy', (req, res) => {
+  res.sendFile(__dirname + '/privacy-policy.html');
+});
+
 // Start server
 app.listen(PORT, () => {
   console.log('🚀 Flights Database API starting on http://localhost:' + PORT);
