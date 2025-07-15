@@ -9,21 +9,21 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
-// Serve static files
-app.use(express.static('.'));
-
 // API routes
 app.all('/api/aircraft', aircraftHandler);
+
+// Privacy Policy route - must come before static file serving
+app.get('/privacy-policy', (req, res) => {
+  res.sendFile(__dirname + '/privacy-policy.html');
+});
 
 // Root route - serve the documentation
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html');
 });
 
-// Privacy Policy route
-app.get('/privacy-policy', (req, res) => {
-  res.sendFile(__dirname + '/privacy-policy.html');
-});
+// Serve static files (must come after specific routes)
+app.use(express.static('.'));
 
 // Start server
 app.listen(PORT, () => {
