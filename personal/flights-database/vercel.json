@@ -1,7 +1,7 @@
 {
   "functions": {
     "api/aircraft.go": {
-      "runtime": "vercel-go@1.0.0"
+      "runtime": "go1.x"
     }
   },
   "routes": [
