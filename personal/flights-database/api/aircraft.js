@@ -65,15 +65,29 @@ module.exports = (req, res) => {
 
       // Filter results based on requested flight codes
       const results = {};
+      const missingFlights = [];
+      
       flightCodes.forEach(flightCode => {
         if (aircraftDatabase.aircraft_mappings[flightCode]) {
           results[flightCode] = aircraftDatabase.aircraft_mappings[flightCode];
+        } else {
+          missingFlights.push(flightCode);
         }
       });
 
-      res.status(200).json({
+      const response = {
         results: results
-      });
+      };
+
+      // Add missing flights information if any
+      if (missingFlights.length > 0) {
+        response.missingFlights = missingFlights.map(flightCode => ({
+          flightCode: flightCode,
+          message: `Flight code '${flightCode}' not found in the database`
+        }));
+      }
+
+      res.status(200).json(response);
       return;
     }
   } catch (error) {
