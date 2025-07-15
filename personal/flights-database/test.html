@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flights Database API Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px 5px;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        pre {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            white-space: pre-wrap;
+        }
+        .error {
+            color: #dc3545;
+        }
+        .success {
+            color: #28a745;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>✈️ Flights Database API Test</h1>
+        
+        <div class="section">
+            <h2>1. Get All Aircraft Mappings</h2>
+            <button onclick="getAllAircraft()">Get All Aircraft</button>
+            <div id="getResult"></div>
+        </div>
+
+        <div class="section">
+            <h2>2. Get Specific Aircraft Mappings</h2>
+            <label for="flightCodes">Flight Codes (comma-separated):</label>
+            <input type="text" id="flightCodes" placeholder="IC5302,AI101,6E1234" value="IC5302,AI101,6E1234">
+            <button onclick="getSpecificAircraft()">Get Specific Aircraft</button>
+            <div id="postResult"></div>
+        </div>
+
+        <div class="section">
+            <h2>3. API Endpoint Configuration</h2>
+            <label for="apiUrl">API Base URL:</label>
+            <input type="text" id="apiUrl" placeholder="https://your-app.vercel.app/api" value="http://localhost:3000/api">
+            <p><small>Change this to your deployed Vercel URL when testing the live API</small></p>
+        </div>
+    </div>
+
+    <script>
+        async function getAllAircraft() {
+            const apiUrl = document.getElementById('apiUrl').value;
+            const resultDiv = document.getElementById('getResult');
+            
+            try {
+                resultDiv.innerHTML = '<p>Loading...</p>';
+                const response = await fetch(`${apiUrl}/aircraft`);
+                const data = await response.json();
+                
+                resultDiv.innerHTML = `
+                    <p class="success">✅ Success! Status: ${response.status}</p>
+                    <pre>${JSON.stringify(data, null, 2)}</pre>
+                `;
+            } catch (error) {
+                resultDiv.innerHTML = `
+                    <p class="error">❌ Error: ${error.message}</p>
+                    <p><small>Make sure your API is running or update the API URL above</small></p>
+                `;
+            }
+        }
+
+        async function getSpecificAircraft() {
+            const apiUrl = document.getElementById('apiUrl').value;
+            const flightCodes = document.getElementById('flightCodes').value.split(',').map(code => code.trim());
+            const resultDiv = document.getElementById('postResult');
+            
+            try {
+                resultDiv.innerHTML = '<p>Loading...</p>';
+                const response = await fetch(`${apiUrl}/aircraft`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        flightCodes: flightCodes
+                    })
+                });
+                const data = await response.json();
+                
+                resultDiv.innerHTML = `
+                    <p class="success">✅ Success! Status: ${response.status}</p>
+                    <pre>${JSON.stringify(data, null, 2)}</pre>
+                `;
+            } catch (error) {
+                resultDiv.innerHTML = `
+                    <p class="error">❌ Error: ${error.message}</p>
+                    <p><small>Make sure your API is running or update the API URL above</small></p>
+                `;
+            }
+        }
+    </script>
+</body>
+</html> 

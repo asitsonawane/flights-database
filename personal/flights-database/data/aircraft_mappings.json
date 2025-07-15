@@ -1,0 +1,24 @@
+{
+  "aircraft_mappings": {
+    "IC5302": {
+      "aircraftType": "AT7",
+      "displayName": "ATR 72",
+      "manufacturer": "ATR"
+    },
+    "AI101": {
+      "aircraftType": "B788",
+      "displayName": "Boeing 787-8",
+      "manufacturer": "Boeing"
+    },
+    "6E1234": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "SG123": {
+      "aircraftType": "B738",
+      "displayName": "Boeing 737-800",
+      "manufacturer": "Boeing"
+    }
+  }
+} 
