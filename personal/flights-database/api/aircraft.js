@@ -1,31 +1,41 @@
 const fs = require('fs');
 const path = require('path');
 
-// Aircraft mappings database
-const aircraftDatabase = {
-  "aircraft_mappings": {
-    "IC5302": {
-      "aircraftType": "AT7",
-      "displayName": "ATR 72",
-      "manufacturer": "ATR"
-    },
-    "AI101": {
-      "aircraftType": "B788",
-      "displayName": "Boeing 787-8",
-      "manufacturer": "Boeing"
-    },
-    "6E1234": {
-      "aircraftType": "A320",
-      "displayName": "Airbus A320",
-      "manufacturer": "Airbus"
-    },
-    "SG123": {
-      "aircraftType": "B738",
-      "displayName": "Boeing 737-800",
-      "manufacturer": "Boeing"
-    }
+// Function to load aircraft database from JSON file
+function loadAircraftDatabase() {
+  try {
+    const dataPath = path.join(process.cwd(), 'data', 'aircraft_mappings.json');
+    const data = fs.readFileSync(dataPath, 'utf8');
+    return JSON.parse(data);
+  } catch (error) {
+    console.error('Error loading aircraft database:', error);
+    // Fallback to original database if file read fails
+    return {
+      "aircraft_mappings": {
+        "IC5302": {
+          "aircraftType": "AT7",
+          "displayName": "ATR 72",
+          "manufacturer": "ATR"
+        },
+        "AI101": {
+          "aircraftType": "B788",
+          "displayName": "Boeing 787-8",
+          "manufacturer": "Boeing"
+        },
+        "6E1234": {
+          "aircraftType": "A320",
+          "displayName": "Airbus A320",
+          "manufacturer": "Airbus"
+        },
+        "SG123": {
+          "aircraftType": "B738",
+          "displayName": "Boeing 737-800",
+          "manufacturer": "Boeing"
+        }
+      }
+    };
   }
-};
+}
 
 module.exports = (req, res) => {
   // Set CORS headers
@@ -46,6 +56,9 @@ module.exports = (req, res) => {
   }
 
   try {
+    // Load the aircraft database
+    const aircraftDatabase = loadAircraftDatabase();
+
     if (req.method === 'GET') {
       // For GET requests, return all aircraft mappings
       res.status(200).json({
