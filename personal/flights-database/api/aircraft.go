@@ -101,6 +101,7 @@ func loadDatabase() (*AircraftDatabase, error) {
 			"./data/aircraft_mappings.json",
 			"../data/aircraft_mappings.json",
 			"../../data/aircraft_mappings.json",
+			"/var/task/data/aircraft_mappings.json",
 		}
 
 		for _, path := range alternativePaths {
