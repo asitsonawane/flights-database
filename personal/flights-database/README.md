@@ -1,23 +1,27 @@
 # Flights Database API
 
-A simple Go API that serves aircraft mapping data from a JSON database, designed to be deployed on Vercel.
+A simple Node.js API that serves aircraft mapping data, designed to be deployed on Vercel.
 
 ## Project Structure
 
 ```
 flights-database/
 ├── api/
-│   └── aircraft.go          # Main API handler
+│   └── aircraft.js          # Main API handler
 ├── data/
-│   └── aircraft_mappings.json # JSON database
-├── go.mod                   # Go module file
+│   └── aircraft_mappings.json # JSON database (for reference)
+├── package.json             # Node.js dependencies
+├── index.js                 # Local development server
 ├── vercel.json             # Vercel deployment config
+├── index.html               # API documentation
+├── test.html               # Browser test interface
+├── deploy.sh               # Deployment script
 └── README.md               # This file
 ```
 
 ## Database Schema
 
-The JSON database contains aircraft mappings with the following structure:
+The API contains aircraft mappings with the following structure:
 
 ```json
 {
@@ -91,13 +95,18 @@ Returns aircraft mappings for specific flight codes.
 
 ## Local Development
 
-1. Install Go (version 1.21 or later)
-2. Clone this repository
-3. Run the development server:
-
+1. Install Node.js (version 16 or later)
+2. Install dependencies:
 ```bash
-go run api/aircraft.go
+npm install
 ```
+
+3. Run the development server:
+```bash
+npm start
+```
+
+The API will be available at `http://localhost:3000`
 
 ## Deployment to Vercel
 
@@ -108,10 +117,13 @@ npm i -g vercel
 
 2. Deploy to Vercel:
 ```bash
-vercel
+vercel --prod
 ```
 
-3. Follow the prompts to configure your deployment
+Or use the deployment script:
+```bash
+./deploy.sh
+```
 
 ## Usage Examples
 
@@ -155,11 +167,23 @@ console.log(data.results);
 
 - ✅ CORS enabled for cross-origin requests
 - ✅ Support for both GET and POST methods
-- ✅ JSON database with aircraft mappings
+- ✅ Built-in aircraft mappings database
 - ✅ Vercel deployment ready
 - ✅ Error handling and validation
 - ✅ Clean API response format
+- ✅ Local development server
+- ✅ Static file serving
 
-## Adding New Aircraft
+## Available Aircraft
 
-To add new aircraft mappings, simply edit the `data/aircraft_mappings.json` file and add new entries following the existing format. 
+- **IC5302**: ATR 72 (AT7)
+- **AI101**: Boeing 787-8 (B788)
+- **6E1234**: Airbus A320 (A320)
+- **SG123**: Boeing 737-800 (B738)
+
+## Technology Stack
+
+- **Runtime**: Node.js
+- **Framework**: Express.js
+- **Deployment**: Vercel
+- **Database**: In-memory JSON (can be extended to use external database) 
