@@ -19,6 +19,91 @@
       "aircraftType": "B738",
       "displayName": "Boeing 737-800",
       "manufacturer": "Boeing"
+    },
+    "6E103": {
+      "aircraftType": "Airbus",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E336": {
+      "aircraftType": "Airbus",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E352": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "6E367": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "6E6473": {
+      "aircraftType": "Airbus",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E6944": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2404": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2470": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "IX1323": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "IX1676": {
+      "aircraftType": "Boeing",
+      "displayName": "Boeing 737",
+      "manufacturer": "Boeing"
+    },
+    "IX2458": {
+      "aircraftType": "Boeing",
+      "displayName": "Boeing 737",
+      "manufacturer": "Boeing"
+    },
+    "IX2650": {
+      "aircraftType": "Boeing",
+      "displayName": "Boeing 737",
+      "manufacturer": "Boeing"
+    },
+    "IX2959": {
+      "aircraftType": "Boeing",
+      "displayName": "Boeing 737",
+      "manufacturer": "Boeing"
+    },
+    "QP1143": {
+      "aircraftType": "Boeing",
+      "displayName": "Boeing 737",
+      "manufacturer": "Boeing"
+    },
+    "SG1077": {
+      "aircraftType": "De",
+      "displayName": "De Havilland Canada DHC-8-400 Dash 8Q",
+      "manufacturer": "De"
+    },
+    "IX1098": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E6191": {
+      "aircraftType": "A321",
+      "displayName": "Airbus A321 NEO",
+      "manufacturer": "Airbus"
     }
   }
 } 
