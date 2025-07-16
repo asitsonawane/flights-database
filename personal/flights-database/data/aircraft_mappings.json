@@ -139,6 +139,201 @@
       "aircraftType": "737",
       "displayName": "Boeing 737",
       "manufacturer": "Boeing"
+    },
+    "6E887": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "6E107": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "6E137": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "6E302": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "6E6066": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E361": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E6754": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "6E391": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E407": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "6E6417": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "6E6055": {
+      "aircraftType": "A321 NEO",
+      "displayName": "Airbus A321 NEO",
+      "manufacturer": "Airbus"
+    },
+    "6E6405": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E6877": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E6527": {
+      "aircraftType": "A321 NEO",
+      "displayName": "Airbus A321 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2801": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2608": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2803": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2628": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2983": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2512": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2998": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2807": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI854": {
+      "aircraftType": "A321",
+      "displayName": "Airbus A321",
+      "manufacturer": "Airbus"
+    },
+    "AI526": {
+      "aircraftType": "A319",
+      "displayName": "Airbus A319",
+      "manufacturer": "Airbus"
+    },
+    "AI2417": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2409": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI524": {
+      "aircraftType": "A319",
+      "displayName": "Airbus A319",
+      "manufacturer": "Airbus"
+    },
+    "IX2938": {
+      "aircraftType": "737 MAX 8",
+      "displayName": "Boeing 737 MAX 8",
+      "manufacturer": "Boeing"
+    },
+    "IX1676": {
+      "aircraftType": "737",
+      "displayName": "Boeing 737",
+      "manufacturer": "Boeing"
+    },
+    "IX2458": {
+      "aircraftType": "737",
+      "displayName": "Boeing 737",
+      "manufacturer": "Boeing"
+    },
+    "IX2863": {
+      "aircraftType": "737 MAX 8",
+      "displayName": "Boeing 737 MAX 8",
+      "manufacturer": "Boeing"
+    },
+    "IX1324": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320 (Sharklets)",
+      "manufacturer": "Airbus"
+    },
+    "IX2739": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "IX2712": {
+      "aircraftType": "737",
+      "displayName": "Boeing 737",
+      "manufacturer": "Boeing"
+    },
+    "IX2898": {
+      "aircraftType": "737",
+      "displayName": "Boeing 737",
+      "manufacturer": "Boeing"
+    },
+    "QP1312": {
+      "aircraftType": "737",
+      "displayName": "Boeing 737",
+      "manufacturer": "Boeing"
+    },
+    "QP1365": {
+      "aircraftType": "737 MAX 8",
+      "displayName": "Boeing 737 MAX 8",
+      "manufacturer": "Boeing"
+    },
+    "QP1551": {
+      "aircraftType": "737 MAX 8",
+      "displayName": "Boeing 737 MAX 8",
+      "manufacturer": "Boeing"
+    },
+    "QP1534": {
+      "aircraftType": "737",
+      "displayName": "Boeing 737",
+      "manufacturer": "Boeing"
     }
   }
 }
