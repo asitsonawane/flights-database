@@ -114,6 +114,41 @@
       "aircraftType": "DHC-8",
       "displayName": "De Havilland Canada DHC-8-400 Dash 8Q",
       "manufacturer": "De"
+    },
+    "6E366": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E374": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "6E744": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "6E985": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "AI2448": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "IX2703": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "IX2933": {
+      "aircraftType": "Boeing",
+      "displayName": "Boeing 737 MAX 8",
+      "manufacturer": "Boeing"
     }
-  }    
+  }
 }
