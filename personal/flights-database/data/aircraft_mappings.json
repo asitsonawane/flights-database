@@ -334,6 +334,446 @@
       "aircraftType": "737",
       "displayName": "Boeing 737",
       "manufacturer": "Boeing"
+    },
+    "6E159": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E2018": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E205": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "6E2065": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E2076": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "6E2117": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "6E2131": {
+      "aircraftType": "A321 NEO",
+      "displayName": "Airbus A321 NEO",
+      "manufacturer": "Airbus"
+    },
+    "6E2163": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E2194": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "6E2216": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "6E238": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "6E2431": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E2766": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E354": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E395": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E449": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E5076": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "6E5091": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "6E5099": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E5139": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "6E519": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E5231": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E5232": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E5234": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320 (Sharklets)",
+      "manufacturer": "Airbus"
+    },
+    "6E5265": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "6E5308": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "6E6022": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E6047": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E6051": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E6107": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E6114": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E6145": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "6E6218": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E625": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E6261": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "6E6318": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E6328": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E6468": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "6E6564": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E6706": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E6714": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E675": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E6814": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E6938": {
+      "aircraftType": "A321 NEO",
+      "displayName": "Airbus A321 NEO",
+      "manufacturer": "Airbus"
+    },
+    "6E7028": {
+      "aircraftType": "ATR 72",
+      "displayName": "ATR 72",
+      "manufacturer": "ATR"
+    },
+    "6E7051": {
+      "aircraftType": "ATR 72",
+      "displayName": "ATR 72",
+      "manufacturer": "ATR"
+    },
+    "6E7165": {
+      "aircraftType": "ATR 72",
+      "displayName": "ATR 72",
+      "manufacturer": "ATR"
+    },
+    "6E7191": {
+      "aircraftType": "ATR 72",
+      "displayName": "ATR 72",
+      "manufacturer": "ATR"
+    },
+    "6E7199": {
+      "aircraftType": "ATR 72",
+      "displayName": "ATR 72",
+      "manufacturer": "ATR"
+    },
+    "6E7236": {
+      "aircraftType": "ATR 72",
+      "displayName": "ATR 72",
+      "manufacturer": "ATR"
+    },
+    "6E7238": {
+      "aircraftType": "ATR 72",
+      "displayName": "ATR 72",
+      "manufacturer": "ATR"
+    },
+    "6E7298": {
+      "aircraftType": "ATR 72",
+      "displayName": "ATR 72",
+      "manufacturer": "ATR"
+    },
+    "6E7711": {
+      "aircraftType": "ATR 72",
+      "displayName": "ATR 72",
+      "manufacturer": "ATR"
+    },
+    "6E853": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E864": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E868": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "6E914": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2420": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2421": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2425": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2433": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2435": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2437": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2439": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2441": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2467": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2483": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2592": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2678": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2839": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2927": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2933": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "AI2941": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2943": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2951": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2955": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2957": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2963": {
+      "aircraftType": "A321",
+      "displayName": "Airbus A321",
+      "manufacturer": "Airbus"
+    },
+    "AI2975": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2977": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2981": {
+      "aircraftType": "A321 NEO",
+      "displayName": "Airbus A321 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2985": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2993": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2995": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "AI2999": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "6E2073": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
+    },
+    "6E6676": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
+    "AI2429": {
+      "aircraftType": "A320 NEO",
+      "displayName": "Airbus A320 NEO",
+      "manufacturer": "Airbus"
     }
   }
 }
