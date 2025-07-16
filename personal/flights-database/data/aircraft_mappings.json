@@ -20,11 +20,6 @@
       "displayName": "Boeing 737-800",
       "manufacturer": "Boeing"
     },
-    "IX1676": {
-      "aircraftType": "Boeing",
-      "displayName": "Boeing 737",
-      "manufacturer": "Boeing"
-    },
     "IX1098": {
       "aircraftType": "A320",
       "displayName": "Airbus A320",
@@ -80,11 +75,6 @@
       "displayName": "Airbus A320 (Sharklets)",
       "manufacturer": "Airbus"
     },
-    "IX2458": {
-      "aircraftType": "Boeing",
-      "displayName": "Boeing 737",
-      "manufacturer": "Boeing"
-    },
     "IX2548": {
       "aircraftType": "Boeing",
       "displayName": "Boeing 737",
@@ -95,17 +85,7 @@
       "displayName": "Boeing 737",
       "manufacturer": "Boeing"
     },
-    "IX2814": {
-      "aircraftType": "Boeing",
-      "displayName": "Boeing 737",
-      "manufacturer": "Boeing"
-    },
     "IX2959": {
-      "aircraftType": "Boeing",
-      "displayName": "Boeing 737",
-      "manufacturer": "Boeing"
-    },
-    "QP1143": {
       "aircraftType": "Boeing",
       "displayName": "Boeing 737",
       "manufacturer": "Boeing"
@@ -145,9 +125,19 @@
       "displayName": "Airbus A320 NEO",
       "manufacturer": "Airbus"
     },
+    "IX2814": {
+      "aircraftType": "737",
+      "displayName": "Boeing 737",
+      "manufacturer": "Boeing"
+    },
     "IX2933": {
-      "aircraftType": "Boeing",
+      "aircraftType": "737 MAX 8",
       "displayName": "Boeing 737 MAX 8",
+      "manufacturer": "Boeing"
+    },
+    "QP1143": {
+      "aircraftType": "737",
+      "displayName": "Boeing 737",
       "manufacturer": "Boeing"
     }
   }
