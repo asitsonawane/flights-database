@@ -20,13 +20,23 @@
       "displayName": "Boeing 737-800",
       "manufacturer": "Boeing"
     },
+    "IX1676": {
+      "aircraftType": "Boeing",
+      "displayName": "Boeing 737",
+      "manufacturer": "Boeing"
+    },
+    "IX1098": {
+      "aircraftType": "A320",
+      "displayName": "Airbus A320",
+      "manufacturer": "Airbus"
+    },
     "6E103": {
-      "aircraftType": "Airbus",
+      "aircraftType": "A320",
       "displayName": "Airbus A320",
       "manufacturer": "Airbus"
     },
     "6E336": {
-      "aircraftType": "Airbus",
+      "aircraftType": "A320",
       "displayName": "Airbus A320",
       "manufacturer": "Airbus"
     },
@@ -40,8 +50,13 @@
       "displayName": "Airbus A320 NEO",
       "manufacturer": "Airbus"
     },
+    "6E6191": {
+      "aircraftType": "A321",
+      "displayName": "Airbus A321 NEO",
+      "manufacturer": "Airbus"
+    },
     "6E6473": {
-      "aircraftType": "Airbus",
+      "aircraftType": "A320",
       "displayName": "Airbus A320",
       "manufacturer": "Airbus"
     },
@@ -52,7 +67,7 @@
     },
     "AI2404": {
       "aircraftType": "A320",
-      "displayName": "Airbus A320 NEO",
+      "displayName": "Airbus A320",
       "manufacturer": "Airbus"
     },
     "AI2470": {
@@ -62,20 +77,25 @@
     },
     "IX1323": {
       "aircraftType": "A320",
-      "displayName": "Airbus A320",
+      "displayName": "Airbus A320 (Sharklets)",
       "manufacturer": "Airbus"
-    },
-    "IX1676": {
-      "aircraftType": "Boeing",
-      "displayName": "Boeing 737",
-      "manufacturer": "Boeing"
     },
     "IX2458": {
       "aircraftType": "Boeing",
       "displayName": "Boeing 737",
       "manufacturer": "Boeing"
     },
+    "IX2548": {
+      "aircraftType": "Boeing",
+      "displayName": "Boeing 737",
+      "manufacturer": "Boeing"
+    },
     "IX2650": {
+      "aircraftType": "Boeing",
+      "displayName": "Boeing 737",
+      "manufacturer": "Boeing"
+    },
+    "IX2814": {
       "aircraftType": "Boeing",
       "displayName": "Boeing 737",
       "manufacturer": "Boeing"
@@ -91,29 +111,9 @@
       "manufacturer": "Boeing"
     },
     "SG1077": {
-      "aircraftType": "De",
+      "aircraftType": "DHC-8",
       "displayName": "De Havilland Canada DHC-8-400 Dash 8Q",
       "manufacturer": "De"
-    },
-    "IX1098": {
-      "aircraftType": "A320",
-      "displayName": "Airbus A320",
-      "manufacturer": "Airbus"
-    },
-    "6E6191": {
-      "aircraftType": "A321",
-      "displayName": "Airbus A321 NEO",
-      "manufacturer": "Airbus"
-    },
-    "IX2548": {
-      "aircraftType": "Boeing",
-      "displayName": "Boeing 737",
-      "manufacturer": "Boeing"
-    },
-    "IX2814": {
-      "aircraftType": "Boeing",
-      "displayName": "Boeing 737 MAX 8",
-      "manufacturer": "Boeing"
     }
-  }
-} 
+  }    
+}
